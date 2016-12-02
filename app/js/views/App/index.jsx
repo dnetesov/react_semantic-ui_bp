@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+
+import MenuHeader from '../../components/Global/Menu';
 
 export default class App extends Component {
   render() {
@@ -7,8 +8,7 @@ export default class App extends Component {
 
     return (
       <div className='App'>
-        <Link to='/'>Home</Link>
-        <Link to='/users'>Users</Link>
+        <MenuHeader />
 
         { children }
       </div>

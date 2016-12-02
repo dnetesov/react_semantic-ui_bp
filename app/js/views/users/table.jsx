@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { Icon, Label, Menu, Table } from 'semantic-ui-react';
 
-export default class Users extends Component {
+export default class UsersTable extends Component {
   render() {
     const { children } = this.props;
 
